@@ -1,0 +1,30 @@
+.header-title {
+  display:flex !important;
+  align-items:center !important;
+  margin: 0;
+}
+
+.header-left {
+  display:flex ;
+  align-items:center ;
+}
+
+.header-logo {
+  width:60px;
+  height:60px;
+}
+
+.header-right {
+  display:flex;
+  align-items:center;
+  justify-content: flex-end;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-li {
+  list-style-type: none;
+}

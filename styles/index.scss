@@ -1,0 +1,40 @@
+// css module
+@import 'normalize.css';
+@import 'flexboxgrid/css/flexboxgrid.min.css';
+
+// css styles
+@import './Header.scss';
+$lighttone:#d6d9db;
+$midtone:#708090;
+$moretone:#536878;
+$hardtone: #36454f;
+
+.container {
+  margin:auto;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+
+header {
+  background-color:$midtone !important;
+  max-height: 80px;
+}
+
+// index page
+.index {
+  min-height:600px;
+  display: flex;
+  background-color: $lighttone;
+}
+
+.index-content {
+
+}

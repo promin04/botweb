@@ -1,0 +1,38 @@
+{
+  "name": "botweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/promin04/botweb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/promin04/botweb/issues"
+  },
+  "homepage": "https://github.com/promin04/botweb#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.5",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "flexboxgrid": "^6.3.1",
+    "glob": "^7.1.2",
+    "material-ui": "^1.0.0-beta.23",
+    "next": "^4.2.1",
+    "node-sass": "^4.7.2",
+    "normalize.css": "^7.0.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^2.0.9",
+    "raw-loader": "^0.5.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "sass-loader": "^6.0.6"
+  }
+}
